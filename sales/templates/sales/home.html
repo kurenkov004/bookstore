@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+  <title>
+    Bookstore home
+  </title>
+
+  <body>
+    <h1 style="text-align: center;" > Welcome to our Bookstore</h1>
+    <a href="{%url 'login' %}">Login</a>
+    <img src="{% static 'sales/images/Bookstore.jpg' %}" alt="home" width="600" height="300">
+  </body>
+</html>
