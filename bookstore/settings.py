@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['infinite-basin-39848-30d97c4fe6b2.herokuapp.com']
 
 
 # Application definition
